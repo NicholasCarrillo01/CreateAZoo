@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c9868c-fab6-4173-bb52-bb61acb44582" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/animals/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/animals/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/animals/Rabbit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/animals/Rhino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/people/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/people/People.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/people/Visitor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/animals/Penguin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,7 +80,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Lion.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Lion.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/animals/Lion.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -102,6 +98,85 @@
                 <element signature="e#497#498#0" expanded="true" />
                 <element signature="e#545#546#0" expanded="true" />
                 <element signature="e#585#586#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="People.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/people/People.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+              <folding>
+                <element signature="e#159#160#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#220#221#0" expanded="true" />
+                <element signature="e#250#251#0" expanded="true" />
+                <element signature="e#281#282#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#348#349#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#440#441#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#518#519#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Visitor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/people/Visitor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+              <folding>
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
+                <element signature="e#282#283#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#526#527#0" expanded="true" />
+                <element signature="e#557#558#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#763#764#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/people/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+              <folding>
+                <element signature="e#189#190#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#733#734#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,6 +236,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -182,6 +258,12 @@
         <option value="$PROJECT_DIR$/src/com/company/Rabbit.java" />
         <option value="$PROJECT_DIR$/src/com/company/Penguin.java" />
         <option value="$PROJECT_DIR$/src/com/company/animals/Rhino.java" />
+        <option value="$PROJECT_DIR$/src/com/company/People/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/company/People/Visitors.java" />
+        <option value="$PROJECT_DIR$/src/com/company/people/Visitors.java" />
+        <option value="$PROJECT_DIR$/src/com/company/people/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/company/people/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/com/company/people/People.java" />
       </list>
     </option>
   </component>
@@ -217,6 +299,13 @@
               <item name="CreateAZoo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CreateAZoo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CreateAZoo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="people" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -405,6 +494,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/package-info.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/animals/Lion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -422,6 +514,79 @@
             <element signature="e#497#498#0" expanded="true" />
             <element signature="e#545#546#0" expanded="true" />
             <element signature="e#585#586#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/people/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+          <folding>
+            <element signature="e#189#190#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#733#734#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/people/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+          <folding>
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#763#764#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/people/People.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="67" selection-start-line="11" selection-start-column="67" selection-end-line="11" selection-end-column="67" />
+          <folding>
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#220#221#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
           </folding>
         </state>
       </provider>
