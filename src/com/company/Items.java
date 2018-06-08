@@ -9,10 +9,12 @@ private String itemName;
 private String receipt;
 
 
-
-   
-
-
+    public Items(double pricing, int quantity, String itemName, String receipt) {
+        this.pricing = pricing;
+        this.quantity = quantity;
+        this.itemName = itemName;
+        this.receipt = receipt;
+    }
 
     public double getPricing() {
         return pricing;

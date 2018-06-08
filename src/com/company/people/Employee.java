@@ -8,12 +8,6 @@ private String jobTitle;
 private String hireDate;
 
 
-    public Employee(int workID, String jobTitle, String hireDate) {
-        this.workID = workID;
-        this.jobTitle = jobTitle;
-        this.hireDate = hireDate;
-    }
-
     public int getWorkID() {
         return workID;
     }

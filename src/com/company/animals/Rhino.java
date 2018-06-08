@@ -25,11 +25,9 @@ private boolean isEndangered;
         return type;
     }
 
-    public boolean isEndangered() {
-        return isEndangered;
+    public boolean isEndangered() { return isEndangered;
     }
 
-    public void setEndangered(boolean endangered) {
-        isEndangered = endangered;
+    public void setEndangered(boolean endangered) { isEndangered = endangered;
     }
 }
