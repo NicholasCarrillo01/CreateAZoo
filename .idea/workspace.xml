@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5c9868c-fab6-4173-bb52-bb61acb44582" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Items.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/animals/Rhino.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/animals/Rhino.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/people/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/people/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/AnimalMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/InventoryMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Peoplemenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Menu.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,13 +20,46 @@
       <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="368">
+              <caret line="95" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Peoplemenu.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Peoplemenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-292">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AnimalMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/AnimalMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InventoryMenu.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/InventoryMenu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -73,8 +104,9 @@
         <option value="$PROJECT_DIR$/src/com/company/people/Visitor.java" />
         <option value="$PROJECT_DIR$/src/com/company/Items.java" />
         <option value="$PROJECT_DIR$/src/com/company/people/Employee.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Menu.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Menu.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Peoplemenu.java" />
       </list>
     </option>
   </component>
@@ -178,7 +210,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -372,13 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Inventory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Food.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -411,10 +436,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Inventory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -422,6 +447,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/AnimalMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/InventoryMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="95" lean-forward="true" selection-start-line="59" selection-start-column="4" selection-end-line="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Peoplemenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-292">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
