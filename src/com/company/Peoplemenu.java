@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class Peoplemenu {
 
-     private Scanner input = new Scanner(System.in);
+    private Scanner input = new Scanner(System.in);
 
     //handles people options
-    private void managePeople() {
+    protected void managePeople() {
 
         try {
             //      find out what type of people we need to manage
@@ -25,10 +25,13 @@ public class Peoplemenu {
                     break;
                 case 2:
 //            handle visitor
+                   manageVisitor();
                     break;
                 case 3:
 //             handle going back to main menu
-                    mainMenu();
+                    Menu menu = new Menu();
+                    menu.mainMenu();
+                    
                     break;
                 case 4:
 //           handle exiting the program
@@ -41,23 +44,18 @@ public class Peoplemenu {
 //            handle any input that is not an int
             input.nextLine();
             System.out.println("that is not a valid entry. please enter a nubmer between 1 and 3");
+            
+        
         }
+
+     
     }
 
+    private void manageVisitor() {
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    private void manageEmployee() {
+    }
 
 
 }
