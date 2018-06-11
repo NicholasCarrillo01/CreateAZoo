@@ -1,5 +1,8 @@
 package com.company.people;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Employee extends People{
 
 private int workID;
@@ -8,8 +11,9 @@ private String jobTitle;
 private String hireDate;
 
 
-   private List<Employee> employeeList;
+   private List<Employee> employeeList = new ArrayList<Employee>();
 
+    
     public Employee(int age, String name, char gender, String race, int workID, String jobTitle, String hireDate) {
         super(age, name, gender, race);
         this.workID = workID;
@@ -49,4 +53,12 @@ private String hireDate;
     public void setHireDate(String hireDate) {
         this.hireDate = hireDate;
     }
+
+    public void addEmployee (Employee newEmployee) {
+        employeeList.add(newEmployee);
+        System.out.println(newEmployee.getName)
+    }
+
+
+
 }
