@@ -8,6 +8,16 @@ private String jobTitle;
 private String hireDate;
 
 
+   private List<Employee> employeeList;
+
+    public Employee(int age, String name, char gender, String race, int workID, String jobTitle, String hireDate) {
+        super(age, name, gender, race);
+        this.workID = workID;
+
+        this.jobTitle = jobTitle;
+        this.hireDate = hireDate;
+    }
+
     public int getWorkID() {
         return workID;
     }

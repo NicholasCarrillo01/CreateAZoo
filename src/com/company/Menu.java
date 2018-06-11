@@ -50,7 +50,7 @@ public class Menu {
         } catch (InputMismatchException ime) {
 //        handle if a user puts in something that is not an int
             input.nextLine();
-            System.out.println("that is not a valid entry. please enter a number between 1 and 3");
+            System.out.println("that is not a valid entry. please enter a number between 1 and 4");
             mainMenu();
 
 
@@ -92,7 +92,7 @@ public class Menu {
         } catch (InputMismatchException ime) {
 //            handle any input that is not an int
             input.nextLine();
-            System.out.println("that is not a valid entry. please enter a nubmer between 1 and 3");
+            System.out.println("that is not a valid entry. please enter a nubmer between 1 and 4");
         }
     }
 
